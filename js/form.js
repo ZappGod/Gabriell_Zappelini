@@ -23,6 +23,6 @@ function remover(chave)
 {
     dados.splice(chave, 1);
     localStorage.setItem('dados', JSON.stringify(dados));
-    window.location.href= "./form.html";
+    window.location.href= "../src/form.html";
 }
 exibirDados();

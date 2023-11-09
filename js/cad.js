@@ -20,7 +20,7 @@ function salvarDados()
     }
 
     localStorage.setItem('dados',JSON.stringify(dados));
-    window.location.href= "./cadastro.html";
+    window.location.href= "../src/cadastro.html";
 }
 
 if(key)
