@@ -29,3 +29,11 @@
     justify-content: center;
     height: 100%;
 }
+#container_anime{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
