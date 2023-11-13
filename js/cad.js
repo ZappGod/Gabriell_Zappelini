@@ -3,6 +3,7 @@ const nome = document.getElementById('nome');
 const apelido = document.getElementById('apelido');
 const telefone = document.getElementById('telefone')
 const email = document.getElementById('email');
+const label = document.querySelectorAll('label');
 var dados = JSON.parse(localStorage.getItem('dados')) || [];
 const key = new URLSearchParams(window.location.search).get('chave');
 
