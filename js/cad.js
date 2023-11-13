@@ -30,3 +30,9 @@ if(key)
     telefone.value = dados[key].telefone;
     email.value = dados[key].email;
 }
+
+label.forEach(par => 
+    {
+        par.style.fontFamily = "cursive"
+        par.style.display = "inline-block"
+    });
