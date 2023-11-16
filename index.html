@@ -1,8 +1,7 @@
 <!-- 
-    Primeiramente organizei as pastas e criei o form.js e o cad.js para poder criar uma maneira de salvar os cadastros da cadastros.html,como foi ensinado em aula usando funções
-    que salvam os dados enviados no localStorage do navegador para poderem ser acessado no form.html,inclusive com a possibilidade de modificar os dados ja salvos ou excluir eles.
-    Depois criei um foreach no cad.js para mudar a fonte de todos os label da pagina,e tambem criar o anime.js para poder estilizar na no anime.html o h2 e somente os p em baixo 
-    do h2 usando if para excluir os p que não queria mudar,tambem usando foreach.
+    1-criei os arquivos form.js e cad.js para poder salvar os cadastros,do cadastros.html, no localStorage do navegador e visualizar no form.html,usando funções e if,e mudei o css dos labels.
+    2-mudei os estilos dos h2 e dos p,menos do primeiro p,usando foreach no arquivo que criei anime.js
+    3-fiz a navbar se mover junto com a tela quando rola a pagina para baixo,e criei o script.js para mudar o css deixando a navbar menor quando rola a tela
 -->
 
 <!DOCTYPE html>
@@ -15,7 +14,7 @@
 </head>
 <body>
 <header>
-    <nav>
+    <nav id="navbar">
         <ul>
             <a href="./index.html"><li>Início</li></a>
             <a href="./src/cadastro.html"><li>Cadastros</li></a>
@@ -51,4 +50,5 @@
     <p>&copy; 2023 AnimeFlix. Todos os direitos reservados.</p>
 </footer>
 </body>
+<script src="./js/script.js"></script>
 </html>
